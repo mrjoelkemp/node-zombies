@@ -1,10 +1,13 @@
 {
   "name": "zombies",
   "version": "0.0.0",
-  "description": "Within a directory, identify modules that are lifeless and lingering",
+  "description": "Identify modules that are lifeless and lingering",
+  "bin": {
+    "zombies": "bin/zombies.js"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/mrjoelkemp/node-zombies/issues"
   },
-  "homepage": "https://github.com/mrjoelkemp/node-zombies"
+  "homepage": "https://github.com/mrjoelkemp/node-zombies",
+  "dependencies": {
+    "app-root": "^1.3.1"
+  }
 }
