@@ -1,0 +1,24 @@
+{
+  "name": "zombies",
+  "version": "0.0.0",
+  "description": "Within a directory, identify modules that are lifeless and lingering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrjoelkemp/node-zombies.git"
+  },
+  "keywords": [
+    "unused",
+    "modules",
+    "identify"
+  ],
+  "author": "Joel Kemp <joel@mrjoelkemp.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrjoelkemp/node-zombies/issues"
+  },
+  "homepage": "https://github.com/mrjoelkemp/node-zombies"
+}
