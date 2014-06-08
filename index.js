@@ -1,6 +1,6 @@
 var getRoots = require('app-root'),
     // TODO: Change to actual module when we move it out
-    getDriverScripts = require('./getDriverScripts');
+    getDriverScripts = require('amd-driver-scripts');
 
 /**
  * Computes the set difference between two arrays
