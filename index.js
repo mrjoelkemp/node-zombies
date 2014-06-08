@@ -17,13 +17,17 @@ function difference(a, b) {
 
 // find roots and find driver scripts and print the set difference
 module.exports = function (directory, cb) {
-  getRoots(directory, function(roots) {
-    console.log('Roots: ', roots)
+  var options = {
+    includeNoDependencyModules: true
+  };
+
+  getRoots(directory, options, function(roots) {
+    // console.log('Roots: ', roots)
     getDriverScripts(roots, function(drivers) {
-      console.log('Drivers: ', drivers)
+      // console.log('Drivers: ', drivers)
 
       var zombies = difference(roots, drivers);
-      console.log('Zombies: ', zombies)
+      // console.log('Zombies: ', zombies)
       cb(zombies);
     });
   });
