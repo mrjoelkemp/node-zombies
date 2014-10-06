@@ -25,7 +25,10 @@
   },
   "homepage": "https://github.com/mrjoelkemp/node-zombies",
   "dependencies": {
-    "amd-driver-scripts": "^0.1.0",
-    "app-root": "^1.4.1"
+    "dependency-tree": "~1.1.0",
+    "get-all-js-files": "~1.0.0",
+    "get-modules-to-build": "~1.0.1",
+    "module-lookup-amd": "~1.0.0",
+    "requirejs-config-file": "^2.0.0"
   }
 }
