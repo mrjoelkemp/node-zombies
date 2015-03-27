@@ -1,6 +1,6 @@
 // Driver script
 require([
-  './b',
+  'foobar',
   './foo/c'
 ], function (B, C) {
 
